@@ -1,0 +1,14 @@
+namespace: extreme
+name: voss
+version: 0.1.0
+readme: README.md
+authors: null
+description: null
+license: GPL-3.0-or-later
+license_file: COPYING
+tags: null
+dependencies: {}
+repository: git@github.com:ansible-collection-migration/extreme.voss.git
+documentation: https://github.com/ansible-collection-migration/extreme.voss/tree/master/docs
+homepage: https://github.com/ansible-collection-migration/extreme.voss
+issues: https://github.com/ansible-collection-migration/extreme.voss/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc
