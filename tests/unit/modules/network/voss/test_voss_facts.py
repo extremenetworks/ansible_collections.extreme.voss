@@ -20,7 +20,7 @@ __metaclass__ = type
 from ansible_collections.extreme.voss.tests.unit.compat.mock import patch
 from ansible_collections.extreme.voss.tests.unit.modules.utils import set_module_args
 from ansible_collections.extreme.voss.plugins.modules import voss_facts
-from ..voss_module import TestVossModule, load_fixture
+from .voss_module import TestVossModule, load_fixture
 
 
 class TestVossFactsModule(TestVossModule):
