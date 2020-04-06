@@ -48,7 +48,7 @@ options:
         with an initial C(M(!)) to specify that a specific subset should
         not be collected.
     required: false
-    default: '!config'
+    default: ['!config']
 '''
 
 EXAMPLES = """

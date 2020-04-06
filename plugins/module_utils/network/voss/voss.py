@@ -29,9 +29,9 @@ import json
 import re
 
 from ansible.module_utils._text import to_native, to_text
-from ansible.module_utils.network.common.utils import to_list, ComplexList
+from ansible_collections.ansible.netcommon.plugins.module_utils.network.common.utils import to_list, ComplexList
 from ansible.module_utils.connection import Connection, ConnectionError
-from ansible.module_utils.network.common.config import NetworkConfig, ConfigLine
+from ansible_collections.ansible.netcommon.plugins.module_utils.network.common.config import NetworkConfig, ConfigLine
 
 _DEVICE_CONFIGS = {}
 

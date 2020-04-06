@@ -48,7 +48,7 @@ options:
         until the condition is satisfied or the number of retries has
         expired. If a command sent to the device requires answering a
         prompt, it is possible to pass a dict containing I(command),
-        I(answer) and I(prompt). Common answers are 'y' or "\r"
+        I(answer) and I(prompt). Common answers are 'y' or "\\r"
         (carriage return, must be double quotes). See examples.
     required: true
   wait_for:
@@ -140,8 +140,8 @@ import time
 
 from ansible_collections.extreme.voss.plugins.module_utils.network.voss.voss import run_commands
 from ansible.module_utils.basic import AnsibleModule
-from ansible.module_utils.network.common.utils import ComplexList
-from ansible.module_utils.network.common.parsing import Conditional
+from ansible_collections.ansible.netcommon.plugins.module_utils.network.common.utils import ComplexList
+from ansible_collections.ansible.netcommon.plugins.module_utils.network.common.parsing import Conditional
 from ansible.module_utils.six import string_types
 
 
